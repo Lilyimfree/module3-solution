@@ -16,7 +16,7 @@ body {
   padding-top: 25px;
   margin-bottom: 25px;
 }
-.navbar-brand h1 { /* cite name */
+.navbar-brand h1 { /* site name */
   font-family: 'PT Serif', serif;
   color: #9B8C82;
   font-size: 1,5em;
@@ -25,12 +25,6 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
-}
-#main-content > h1 {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-#Chicken > h2 {
-  font-family: 'Source Sans Pro', sans-serif;
 }
 #Item-text
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -42,17 +36,33 @@ body {
 .navbar-header button.navbar-toggle {
     clear: both;
     margin-top: 20px;
-	/* END HEADER */
-
-/* HOME PAGE */
-
-
-/* END HOME PAGE */
 }
 #bs-example-navbar-collapse-1 > ul {
 	background:#C7BAB2 ;
 	margin-bottom: 0px;
 }
+	/* END HEADER */
+
+/* HOME PAGE */
+#Chicken, #Beef, #Sushi {
+	margin-bottom: 25px;
+	margin-top: 5px;
+}
+#section1, #section2, #section3 {
+	background-color: #E0DAD7;
+	border: 1px solid;
+	padding: 15px;
+}
+#main-content > h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#section1 > h3, #section2 > h3, #section3 > h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+a[href="#top"] {
+  color: #493F3C;
+}
+/* END HOME PAGE */
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
